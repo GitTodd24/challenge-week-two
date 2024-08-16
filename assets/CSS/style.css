@@ -15,7 +15,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     height: 10vh;
-    border: 3px solid gold;
+    border: 3px black;
     background-color: gold;
     padding-left: 4em;
     padding-top: 1em;
@@ -26,6 +26,7 @@ header h1 {
     padding-left: 2em;
     padding-right: 8em;
     font-weight: 600;
+    
 }
 
 header nav {
@@ -46,18 +47,20 @@ header ul {
 header li {
     list-style: none;
     padding-right: 10%;
+    padding-top: 1%;
 
 }
 
 h3 {
     height: 40px;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items:flex-end;
+    /*justify-content: flex-end;*/
     padding-top: .5em;
     padding-right: 15em;
     font-weight: 600;
     border-color: gold;
+    border: black;
 
 }
 
